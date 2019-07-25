@@ -1,1 +1,1 @@
-labeltotags←{labels tags←⍵ ⋄ ↑((labels≡¨⊂⍺)⌿tags)}
+labeltotags←{labs tags←⍵ ⋄ ↑((labs≡¨⊂⍺)⌿tags)}

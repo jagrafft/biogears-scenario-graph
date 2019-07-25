@@ -1,5 +1,6 @@
 ⍝ WARNING: All tags have associated tags, which
-⍝ occasionally results in infinite recursion.
+⍝ occasionally results in cyclic associations
+⍝ (infinite recursion).
 ⍝ This code is STRICTLY proof-of-concept
 
 paramcount tagcount xsicount ← 8 69 45
