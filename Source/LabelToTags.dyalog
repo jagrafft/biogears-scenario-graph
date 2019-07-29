@@ -1,1 +1,0 @@
-labeltotags←{labs tags←⍵ ⋄ ↑((labs≡¨⊂⍺)⌿tags)}
