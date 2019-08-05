@@ -9,7 +9,8 @@ paramlabels←{'p',⍕⍵}¨⍳paramcount
 taglabels←{'t',⍕⍵}¨⍳tagcount
 xsilabels←{'x',⍕⍵}¨⍳xsicount
 
-tagparams←{(⌊0.35+?0)?paramcount}¨⍳tagcount
-tagtags←{(+/⌊0.15+?0 0 0)?tagcount}¨⍳tagcount
-xsiparams←{(?2)?paramcount}¨⍳xsicount
-xsitags←{↑1,(?10)?tagcount}¨⍳xsicount
+tagtoparamindex←{(⌊0.35+?0)?paramcount}¨⍳tagcount
+tagtotagindex←{(+/⌊0.15+?0 0 0)?tagcount}¨⍳tagcount
+
+xsiparamindex←{(?2)?paramcount}¨⍳xsicount
+xsitagindex←{↑1,(?10)?tagcount}¨⍳xsicount

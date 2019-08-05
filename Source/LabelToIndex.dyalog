@@ -1,1 +1,0 @@
-labeltoindex←{lab ind←⍵ ⋄ ↑((lab≡¨⊂⍺)⌿ind)}
