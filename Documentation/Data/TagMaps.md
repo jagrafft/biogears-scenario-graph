@@ -1,5 +1,5 @@
 # Tag Mappings
-| | tag | tags | parameters |
+| | `<tag ...>` | `<tag ...>`s | parameters |
 |:-:|:-:|:-:|:-:|
 | | Action | | |
 | ... | ... | ... | ... |
