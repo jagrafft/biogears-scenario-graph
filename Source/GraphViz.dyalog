@@ -10,11 +10,13 @@ graphviz←{
 ⍝ Output to GraphViz DOT file
 ⍝ Thanks to Christian Fischer <christian@chfi.se>
 
+⍝ Christian's function
 ⍝ graphviz←{
 ⍝     ls←⍺
 ⍝     es←⍵
 ⍝     get←{{⍺,' ',⍵}/⍺[⍵]}
-⍝     b←{⊃(⍴⍵)=0:'' ⋄ ⍺,' -> {',(⊃(ls get ⍵)),'};'}
-⍝     c←(⊂('digraph G {')),(b⌿↑ls es),⊂('} ')
-⍝     c~(⊂'')       
+⍝     l←{s←⍺ ⋄ {s, ' -> ',(⊃ls[⍵]),';'}¨⍵}
+⍝     b←{(0≡≢⍵):'' ⋄ (⍺ l ⍵)}
+⍝     c←(⊂'digraph G {'),(b⌿↑ls es),⊂(') ')
+⍝     c~(c'')
 ⍝ }

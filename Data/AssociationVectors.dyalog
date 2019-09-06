@@ -9,7 +9,7 @@ TagLabels←_tl1,_tl2,_tl3
 ParamLabels←'AdminRoute' 'Compartment' 'Name' 'Side' 'State' 'Type' 'unit' 'value'
 
 ⍝ ## `xsi:type`
-_xs1←'AcuteStressData' 'AdvanceTimeData' 'AirwayObstructionData' 'AnesthesiaMachineConfigurationData' 'ApneaData' 'AsthmaAttackData' 'BrainInjuryData' 'BreathHoldData' 'BronchoconstrictionData' 'CardiacArrestData' 'ChestCompressionForceData' 'ChestCompressionForceScaleData' 'ChestOcclusiveDressingData' 'ConsciousRespirationData' 'ConsumeMealData' 
+_xs1←'AcuteStressData' 'AdvanceTimeData' 'AirwayObstructionData' 'AnesthesiaMachineConfigurationData' 'ApneaData' 'AsthmaAttackData' 'BrainInjuryData' 'BreathHoldData' 'BronchoconstrictionData' 'CardiacArrestData' 'ChestCompressionForceData' 'ChestCompressionForceScaleData' 'ChestOcclusiveDressingData' 'ConsciousRespirationData' 'ConsumeMealData'
 _xs2←'EnvironmentChangeData' 'ExerciseData' 'ExpiratoryValveLeakData' 'ExpiratoryValveObstructionData' 'ForcedExhaleData' 'ForcedInhaleData' 'HemorrhageData' 'InhalerConfigurationData' 'InspiratoryValveLeakData' 'InspiratoryValveObstructionData' 'IntubationData' 'MaskLeakData' 'MechanicalVentilationData' 'NeedleDecompressionData' 'OxygenTankPressureLossData'
 _xs3←'OxygenWallPortPressureLossData' 'PericardialEffusionData' 'SerializeStateData' 'SodaLimeFailureData' 'SubstanceBolusData' 'SubstanceCompoundInfusionData' 'SubstanceInfusionData' 'TensionPneumothoraxData' 'ThermalApplicationData' 'TubeCuffLeakData' 'UrinateData' 'UseInhalerData' 'VaporizerFailureData' 'VentilatorPressureLossData' 'YPieceDisconnectData'
 XsiLabels←_xs1,_xs2,_xs3
