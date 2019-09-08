@@ -1,4 +1,4 @@
-crossrefval←{lab ind←⍵ ⋄ ↑((lab≡¨⊂⍺)⌿ind)}
+crossrefval←{lab ind←⍵ ⋄ ,↑((lab≡¨⊂⍺)⌿ind)}
 
 ⍝ s crossrefval X Y
 ⍝ `s` is the scalar sought

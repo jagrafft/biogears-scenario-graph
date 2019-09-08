@@ -1,7 +1,3 @@
-buildtree←{
-    ind←⍺
-    t←{⍵>0: ⍵,(∇¨(⍵ children ind)) ⋄ ⍵}¨⍵
-    (⍴t)≡⍬: (⊃⊃t),⊂(1↓⊃t) ⋄ t
-}
+buildtree←{ind←⍺ ⋄ {c←ind[⍵] ⋄ (⊃c)≡⍬:⍵ ⋄ (≡c)>0:⍵,c ⋄ ⍵,⊂(1↓⍬ c)}¨⍵}
 
 ⍝ INDEX_VECTOR buildtree INDICES
