@@ -1,11 +1,9 @@
 xsiblock←{
     p←⍵ crossrefval XsiLabels XsiParentTags
-    c←⍵ crossrefval XsiLabels XsiFirstGenChildTags
-    ⍝ (⍴⊃)=1: c←⊃c
-    t←TagFirstGenChildTags buildtree c
-    (⍴⍴t)=1: p,t ⋄ p,⊂t
-    ⍝ p,⊂t
+    c←⍵ crossrefval XsiLabels XsiFirstGenChildren
+    t←TagFirstGenChildren builddag c
+    (≢t)=1: p,t ⋄ p,⊂t
 }
 
-⍝ xsiblock XSI_LABEL
-⍝ Return rested array of `<tag ...>` indices
+⍝ xsiblock Cv
+⍝ Cv is the character vector for a BioGears Scenario XML file `xsi:type`

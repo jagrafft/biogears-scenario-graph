@@ -1,6 +1,9 @@
-crossrefval←{lab ind←⍵ ⋄ ,↑((lab≡¨⊂⍺)⌿ind)}
+crossrefval←{
+    lab ind←⍵
+    ,↑((lab≡¨⊂⍺)⌿ind)
+}
 
-⍝ s crossrefval X Y
-⍝ `s` is the scalar sought
-⍝ `X` should contian `s`
-⍝ `Y` contains the desired set of values
+⍝ Cv crossrefval Dv Yv
+⍝ Cv is the character vector sought
+⍝ Dv contains S, providing the index to access Y at
+⍝ Yv is the array to cross reference
