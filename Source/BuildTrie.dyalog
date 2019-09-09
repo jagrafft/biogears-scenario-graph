@@ -1,13 +1,15 @@
-builddag←{
+buildtrie←{
     ind←⍺
     {
         c←ind[⍵]
         (⊃c)≡⍬: ⍵
-        (≡c)>0: ⍵,{ind builddag ⍵}¨c
-        ⍵,⊂(1↓⍬ c)
+        (≡c)>0: ⍵,{ind buildtrie ⍵}¨c
+        ⍵,c
     }¨⍵
 }
 
-⍝ Mv builddag Nv
+⍝ MAY BE DEPRECATED
+
+⍝ Mv buildtrie Nv
 ⍝ Mv is the vector to extract values from
 ⍝ Nv gives the index of the desired values

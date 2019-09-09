@@ -43,3 +43,13 @@ XsiParams←⍬ ⍬ ⍬ ⍬ ⍬ ⍬ (6) ⍬ ⍬ ⍬ ⍬ ⍬ (5 4) ⍬ ⍬ ⍬ �
 
 ⍝ Parent Tags
 XsiParentTags←1 1 1 1 1 1 1 15 1 1 1 1 1 1 1 1 1 1 1 15 15 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 15 1 1 1
+
+
+⍝ TEMP...
+⍝ display TagFirstGenChildren buildtrie ('AnesthesiaMachineConfigurationData' crossrefval XsiLabels XsiFirstGenChildren)
+
+⍝ display xsiblock 'AnesthesiaMachineConfigurationData'
+
+⍝ display TagFirstGenChildren buildtrie ('MechanicalVentilationData' crossrefval XsiLabels XsiFirstGenChildren)
+
+⍝ display xsiblock 'MechanicalVentilationData'

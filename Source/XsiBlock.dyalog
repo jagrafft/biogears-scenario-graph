@@ -1,8 +1,7 @@
 xsiblock←{
-    p←⍵ crossrefval XsiLabels XsiParentTags
-    c←⍵ crossrefval XsiLabels XsiFirstGenChildren
-    t←TagFirstGenChildren builddag c
-    (≢t)=1: p,t ⋄ p,⊂t
+    ac←⍵ crossrefval XsiLabels XsiAllChildren
+    tl←1↓ac
+    (⊃ac),(⊃tl),TagFirstGenChildren[tl]
 }
 
 ⍝ xsiblock Cv
