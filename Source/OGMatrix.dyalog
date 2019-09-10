@@ -4,7 +4,6 @@ ogmatrix←{
     pt←⍺
     as←{
         p←pt[⍵]
-        a←⊃p=h
         (⊃p=h)≡1: p ⋄ ⊃(t∊¨pt[⍵])/t
     }¨t
     ↑{(0),(⍵∊¨as)}¨⍵

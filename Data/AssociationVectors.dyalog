@@ -43,10 +43,3 @@ XsiParams←⍬ ⍬ ⍬ ⍬ ⍬ ⍬ (6) ⍬ ⍬ ⍬ ⍬ ⍬ (5 4) ⍬ ⍬ ⍬ �
 
 ⍝ Parent Tags
 XsiParentTags←1 1 1 1 1 1 1 15 1 1 1 1 1 1 1 1 1 1 1 15 15 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 15 1 1 1
-
-
-⍝ TEMP...
-⍝ display TagParentTags ogmatrix ('MechanicalVentilationData' crossrefval XsiLabels XsiAllChildren)
-⍝ display TagParentTags ogmatrix ('AnesthesiaMachineConfigurationData' crossrefval XsiLabels XsiAllChildren)
-
-⍝ display xsiblock 'AnesthesiaMachineConfigurationData'
