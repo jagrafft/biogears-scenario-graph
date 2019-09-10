@@ -1,4 +1,4 @@
-# BioGears Scenario Element Trie and XML Block Generator
+# BioGears Scenario Element Graph and XML Block Generator
 
 A [trie][trie] representation of [BioGears'][bg] [Scenario XML Files][bgxml] elements. Will expand to include an HTTP interface (Dyalog's [JSONServer][djson]) for requesting filled XML blocks interpretable by the BioGears engine.
 
