@@ -1,7 +1,7 @@
 xsiblock←{
     ac←⍵ crossrefval XsiLabels XsiAllChildren
     tl←1↓ac
-    (⊃ac),(⊃tl),TagFirstGenChildren[tl]
+    (⊃tl),({0=≢⍵: ⊃⍵ ⋄ ⍵}¨TagFirstGenChildren[tl])
 }
 
 ⍝ xsiblock Cv

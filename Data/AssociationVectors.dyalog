@@ -46,10 +46,7 @@ XsiParentTags←1 1 1 1 1 1 1 15 1 1 1 1 1 1 1 1 1 1 1 15 15 1 1 1 1 1 1 1 1 1 1
 
 
 ⍝ TEMP...
-⍝ display TagFirstGenChildren buildtrie ('AnesthesiaMachineConfigurationData' crossrefval XsiLabels XsiFirstGenChildren)
+⍝ display TagParentTags ogmatrix ('MechanicalVentilationData' crossrefval XsiLabels XsiAllChildren)
+⍝ display TagParentTags ogmatrix ('AnesthesiaMachineConfigurationData' crossrefval XsiLabels XsiAllChildren)
 
 ⍝ display xsiblock 'AnesthesiaMachineConfigurationData'
-
-⍝ display TagFirstGenChildren buildtrie ('MechanicalVentilationData' crossrefval XsiLabels XsiFirstGenChildren)
-
-⍝ display xsiblock 'MechanicalVentilationData'
